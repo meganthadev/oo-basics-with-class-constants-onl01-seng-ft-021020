@@ -18,8 +18,8 @@ class Shoe
   
   def brands=(brands)
     @brands = brands
-     brands = ["Uggs", "Rainbow", "Nike", "Nike"]
   end
+  brands = ["Uggs", "Rainbow", "Nike", "Nike"]
   my_shoe=Shoe.new(brands)
   
 end
